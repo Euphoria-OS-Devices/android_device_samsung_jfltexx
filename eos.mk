@@ -1,8 +1,5 @@
 $(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/eos/config/nfc_enhanced.mk)
-
 # Inherit some common Euphoria OS stuff.
 $(call inherit-product, vendor/eos/config/common_full_phone.mk)
 
